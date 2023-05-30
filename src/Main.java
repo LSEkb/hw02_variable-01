@@ -50,6 +50,32 @@ public class Main {
         System.out.println(frog);
 
 
+        // задача 6
+        var boxer1 = 78.2;
+        var boxer2 = 82.7;
+        // общий вес двух боксеров
+        var sum = boxer1 + boxer2;
+        System.out.println(sum);
+        // разница между весами двух боксеров
+        var dif = boxer2 - boxer1;
+        System.out.println(dif);
+
+
+        // задача 7
+        // так как вычитанием эту задачу мы решили в 6 примере, то здесь - только вариант
+        // с помощью функции остаток от деления
+        var dif2 = boxer2 % boxer1;
+        System.out.println(dif2);
+
+
+        // задача 8
+        var wh = 640;
+        var wt = 8;
+        var qty = wh / wt;
+        qty = qty + 94;
+        wh = qty * wt;
+        System.out.println("Если в компании работает " + qty +" человек, то всего " + wh + " часов работы может быть поделено между ними");
+
 
     }
 }
